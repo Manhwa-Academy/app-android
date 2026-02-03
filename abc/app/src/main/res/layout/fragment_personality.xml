@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.home.PersonalityFragment">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:background="@color/colorBlue"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlSymmetry">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/personalityAvatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/default_avatar"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <LinearLayout
+            android:paddingStart="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/personalityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nguyen_thanh_phone"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personalityButtonChangeInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/update_personal_information"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="5dp"-->
+<!--        android:background="@color/colorSeparator"/>-->
+
+    <!-- 5 COMMON DEMAND IN USE -->
+<!--    <HorizontalScrollView-->
+<!--        android:scrollbars="none"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+
+<!--        android:background="@drawable/background_rounded_corner"-->
+<!--        android:padding="20dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            &lt;!&ndash; GAMING &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/personalityFragmentStatusProcessing"-->
+<!--                    style="@style/style_button_demand"-->
+<!--                    android:background="@drawable/background_button_lightweight"-->
+<!--                    android:src="@drawable/ic_to_pay" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/style_text_view_demand_button"-->
+<!--                    android:text="@string/to_pay"-->
+<!--                    tools:ignore="SmallSp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="match_parent" />-->
+
+<!--            &lt;!&ndash; STUDENT &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/personalityFragmentStatusPacked"-->
+<!--                    style="@style/style_button_demand"-->
+<!--                    android:background="@drawable/background_button_graphic"-->
+<!--                    android:src="@drawable/ic_packed" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/style_text_view_demand_button"-->
+<!--                    android:text="@string/packed"-->
+<!--                    tools:ignore="SmallSp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="match_parent" />-->
+
+<!--            &lt;!&ndash; OFFICE &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/personalityFragmentStatusBeingTransported"-->
+<!--                    style="@style/style_button_demand"-->
+<!--                    android:background="@drawable/background_button_student"-->
+<!--                    android:src="@drawable/ic_being_transported" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/style_text_view_demand_button"-->
+<!--                    android:text="@string/being_transported"-->
+<!--                    tools:ignore="SmallSp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="match_parent" />-->
+
+<!--            &lt;!&ndash; GRAPHIC &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/personalityFragmentStatusDelivered"-->
+<!--                    style="@style/style_button_demand"-->
+<!--                    android:background="@drawable/background_button_office"-->
+<!--                    android:src="@drawable/ic_done" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/style_text_view_demand_button"-->
+<!--                    android:text="@string/done"-->
+<!--                    tools:ignore="SmallSp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="match_parent" />-->
+
+<!--            &lt;!&ndash; LIGHT-WEIGHT &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/personalityFragmentButtonCancel"-->
+<!--                    style="@style/style_button_demand"-->
+<!--                    android:background="@drawable/background_button_gaming"-->
+<!--                    android:src="@drawable/ic_cancel" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/style_text_view_demand_button"-->
+<!--                    android:text="@string/cancel"-->
+<!--                    tools:ignore="SmallSp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </HorizontalScrollView>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorSeparator"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/personalitySettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorButtomNavigationMenuEnable"
+        android:padding="10dp" />
+</LinearLayout>
