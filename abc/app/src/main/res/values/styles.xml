@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_view_color_theme_style">
+        <item name="android:textColor">@color/colorTheme</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_color_normal_style">
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+
+    <style name="input_style">
+        <item name="android:background">@drawable/input_style</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">247dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/button_style_state</item>
+        <item name="android:textColor">@drawable/button_text_color_style_state</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="add_to_cart_button_confirm">
+        <item name="android:layout_width">247dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/add_to_cart_button_confirm_style</item>
+        <item name="android:textColor">@drawable/button_text_color_style_state</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="style_text_view_demand_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="style_button_demand">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="advanced_search_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="product_infor_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+
+    <style name="product_infor_text_view_specification">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+
+    <style name="orders_activity_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextSupport</item>
+    </style>
+
+</resources>

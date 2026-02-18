@@ -1,8 +1,0 @@
-Array
-(
-    [email] => vuliztva1@gmail.com
-    [password] => 123456a
-    [password-confirm] => 123456a
-    [first_name] => ff
-    [last_name] => vv
-)
